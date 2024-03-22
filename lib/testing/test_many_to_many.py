@@ -27,6 +27,7 @@ def test_contract_init():
 def test_contract_validates_author():
     """Test Contract class validates author of type Author"""
     book = Book("Title")
+    author = Author("Author Name")
     date = '01/01/2001'
     royalties = 40000
 
